@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <div class="banner-wrapper">
+        <a href="{{feed.item_url}}" target="_blank">
+          <div class="banner-image">
+            <img src="{{feed.item_image}}" alt="{{feed.item_make}} {{feed.item_model}}">
+          </div>
+          <div class="banner-content">
+            <h2>{{feed.item_make}} {{feed.item_model}}</h2>
+            <p>{{feed.item_year}} | {{feed.item_price}}</p>
+          </div>
+        </a>
+      </div>
+         
+      
+</body>
+</html>
